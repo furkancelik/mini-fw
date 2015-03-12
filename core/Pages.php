@@ -1,14 +1,26 @@
 <?php
 
 $route->get('/',function(){
+    $a = <<<ASD
+<form method="POST" action="">
+<input type="text" name="name" />
+<input type="submit" value="Gönder" />
+</form>
+ASD;
+echo $a;
     return "Merhaba GET!";
 
 });
 
+
+$route->get('/hello',array('n'=>'index','c'=>'IndexC@index'));
+
 $route->post('/',function(){
-    return "Merhaba POST!";
+    //return false;//Input::get('name');
+    //return "Merhaba POST!";
 
 });
+
 
 for($i=0;$i<1000;$i++)
 {
