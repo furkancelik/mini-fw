@@ -1,3 +1,8 @@
 # mini-fw
-Mini-Fw
-SW Bilişim
+>Mini-Fw
+
+Dosyaları İndirdikten Sonra Geçerli Dizine Giderek
+
+ `php composer.phar install`
+ Komutunu çalıştırarak (test edebilirsiniz) kullanabilirsiniz.
+ 
