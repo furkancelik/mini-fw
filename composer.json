@@ -1,0 +1,21 @@
+{
+    "name": "mini-fw/mini-fw",
+    "description": "PHP Mini-FW",
+    "authors": [
+        {
+            "name": "Furkan Celik",
+            "email": "furkan.celik32@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"classmap": [
+			"app/Core",
+			"app/C",
+			"app/M"
+		]
+	}
+}
